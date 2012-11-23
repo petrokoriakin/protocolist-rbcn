@@ -1,4 +1,16 @@
 GIT
+  remote: git://github.com/artfuldodger/rpm.git
+  revision: b17a43ab60cb2425065d0ee86b07aa98cc28ddb4
+  specs:
+    newrelic_rpm (3.5.0.1)
+
+GIT
+  remote: git://github.com/pyotrkoryakin/protocolist.git
+  revision: 55f366a8264f570b2d17fc8d2d48de41f82943a7
+  specs:
+    protocolist (0.9.0.beta)
+
+GIT
   remote: git://github.com/rails/activerecord-deprecated_finders.git
   revision: dd99c375c44b7cb38c5323cd419a5882817249f0
   specs:
@@ -112,10 +124,8 @@ GEM
     mime-types (1.19)
     minitest (4.3.0)
     multi_json (1.3.7)
-    newrelic_rpm (3.5.2.17)
     pg (0.14.1)
     polyglot (0.3.3)
-    protocolist (0.9.0.beta)
     rack (1.4.1)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -154,9 +164,9 @@ DEPENDENCIES
   coffee-rails!
   journey!
   jquery-rails
-  newrelic_rpm
+  newrelic_rpm!
   pg
-  protocolist
+  protocolist!
   rails!
   sass-rails!
   sprockets-rails!
