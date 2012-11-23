@@ -5,12 +5,6 @@ GIT
     newrelic_rpm (3.5.0.1)
 
 GIT
-  remote: git://github.com/pyotrkoryakin/protocolist.git
-  revision: 55f366a8264f570b2d17fc8d2d48de41f82943a7
-  specs:
-    protocolist (0.9.0.beta)
-
-GIT
   remote: git://github.com/rails/activerecord-deprecated_finders.git
   revision: dd99c375c44b7cb38c5323cd419a5882817249f0
   specs:
@@ -166,7 +160,6 @@ DEPENDENCIES
   jquery-rails
   newrelic_rpm!
   pg
-  protocolist!
   rails!
   sass-rails!
   sprockets-rails!

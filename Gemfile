@@ -9,7 +9,7 @@ gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_fi
 gem 'pg'
 gem 'thin'
 gem 'newrelic_rpm', github: 'artfuldodger/rpm'
-gem 'protocolist', github: 'pyotrkoryakin/protocolist'
+#gem 'protocolist', github: 'pyotrkoryakin/protocolist'
 
 # Gems used only for assets and not required
 # in production environments by default.
