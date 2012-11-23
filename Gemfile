@@ -26,12 +26,18 @@ end
 
 gem 'jquery-rails'
 
+gem 'xpath'
+gem 'spork'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
 group :test do
 	gem 'rspec-rails'
 	gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
 
 group :test, :development do
