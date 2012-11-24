@@ -33,7 +33,6 @@ gem 'spork'
 gem 'turbolinks'
 
 group :test do
-	gem 'rspec-rails'
 	gem 'factory_girl_rails'
   gem 'cucumber-rails'
   gem 'capybara'
@@ -42,6 +41,7 @@ end
 
 group :test, :development do
 	gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
 # To use ActiveModel has_secure_password

@@ -1,0 +1,1 @@
+require 'spec_helper'describe Post do  before(:each) do    @post = Post.new  end  it ".find_by_name" do    true.should == false  endend
